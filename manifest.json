@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "URL Blocker",
+  "description": "Blocks sites whose URL contains strings from data.txt",
+  "version": "3.0",
+  "permissions": ["storage", "webNavigation", "scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "action": {
+  }
+}
