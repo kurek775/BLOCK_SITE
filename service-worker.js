@@ -38,7 +38,7 @@ chrome.webNavigation.onCommitted.addListener(async (details) => {
               h1 { color: #e53935; }
             </style>
             <h1>🚫 Site Blocked</h1>
-            <p>This site is blocked by your chrome extension.</p>
+            <p>This site is blocked by your chrome extensionf.</p>
           `;
         }
       });
